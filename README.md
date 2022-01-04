@@ -21,19 +21,28 @@
 ## T-Tests on Suspension Coils
 
 * As shown in the image below, for PSI of all manufacturing lots in total, with a significance level of 0.05 the null hypothesis that the sample mean is equal to the population mean (1,500) cannot be rejected.
+
 ![](Images/t_test.png)
 
 * As shown in the image below, for PSI of "Lot1", with a significance level of 0.05 the null hypothesis that the sample mean is equal to the population mean (1,500) cannot be rejected.
+
 ![](Images/t_test_lot1.png)
 
 * As shown in the image below, for PSI of "Lot2", with a significance level of 0.05 the null hypothesis that the sample mean is equal to the population mean (1,500) cannot be rejected.
+
 ![](Images/t_test_lot2.png)
 
 * As shown in the image below, for PSI of "Lot3", with a significance level of 0.05 the null hypothesis that the sample mean is equal to the population mean (1,500) is rejected in favor of the alternative hypothesis that the sample mean is NOT equal to the population.
+
 ![](Images/t_test_lot3.png)
 
 ## Study Design: MechaCar vs Competition
 
+* **Focus:** Fuel efficiency as measured by miles per gallon (MPG).
+* **Metric to be Tested:** Miles per gallon (MPG).
+* **Null and Alternative Hypotheses:** Null: The mean MPG of all competitors are equal; Alternative: At least the mean MPG of one competitor is different from all others.
+* **Statistical Test:** The statistical test used to test the hypothesis would be the one-way ANOVA test as it allows to test the means of a single dependent variable (in this case MPG) across groups base on a categorical independent variable (in this case Competitor) simultaneously.
+* **Data:** The data required for the test would include multiple observations from all relevant competitors, with "Competitor" shown as a categorical variable in the dataset and "MPG" as a normally distributed, numerical and continous variable in the dataset, as well. Also, we would require that the variance corresponding to the subset of the dataset for each competitor is similar among competitors to allow for the use of the one-way ANOVA test.
 
 
 
